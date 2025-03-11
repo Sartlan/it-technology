@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги системного администратора</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="menu-overlay"></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-server"></i>
+                <span>IT Technology</span>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#services">Услуги</a>
+                <a href="#advantages">Преимущества</a>
+                <a href="#calculator">Калькулятор</a>
+                <a href="#contact">Контакты</a>
+            </div>
+            <div class="nav-cta">
+                <a href="tel:+79386535810" class="btn-small">
+                    <i class="fas fa-phone"></i> +7 938 653-58-10
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="fade-in">Профессиональные IT-услуги</h1>
+            <p class="fade-in">Комплексное обслуживание IT-инфраструктуры вашего бизнеса</p>
+            <div class="header-stats fade-in">
+                <div class="stat-item">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Лет опыта</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Клиентов</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Поддержка</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="services" id="services">
+            <h2 class="section-title fade-in">Наши услуги</h2>
+            <div class="services-button-container">
+                <button class="services-toggle-btn">
+                    <span>Наши услуги</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="services-grid hidden">
+                <div class="service-card fade-in">
+                    <i class="fas fa-laptop-medical service-icon"></i>
+                    <h3>Обслуживание компьютерной техники</h3>
+                    <p>Профессиональный ремонт и обслуживание компьютеров, ноутбуков и периферийных устройств.</p>
+                    <ul class="service-features">
+                        <li>Диагностика и ремонт</li>
+                        <li>Чистка и апгрейд</li>
+                        <li>Установка Windows/Linux</li>
+                    </ul>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-robot service-icon"></i>
+                    <h3>Разработка Telegram ботов</h3>
+                    <p>Создание индивидуальных Telegram ботов на Python для автоматизации бизнес-процессов.</p>
+                    <ul class="service-features">
+                        <li>Чат-боты для поддержки</li>
+                        <li>Боты для автоматизации</li>
+                        <li>Интеграция с CRM/API</li>
+                    </ul>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-desktop service-icon"></i>
+                    <h3>Установка операционных систем</h3>
+                    <p>Профессиональная установка и настройка Windows и Linux любых версий под ваши задачи.</p>
+                    <ul class="service-features">
+                        <li>Windows 10/11</li>
+                        <li>Ubuntu, Mint, Fedora</li>
+                        <li>Настройка драйверов</li>
+                    </ul>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-download service-icon"></i>
+                    <h3>Установка программного обеспечения</h3>
+                    <p>Профессиональная установка и настройка любого ПО на ваши устройства.</p>
+                    <ul class="service-features">
+                        <li>Офисные программы</li>
+                        <li>Графические редакторы</li>
+                        <li>Специализированное ПО</li>
+                    </ul>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-headset service-icon"></i>
+                    <h3>Поддержка пользователей</h3>
+                    <p>Быстрое решение проблем и техническая поддержка ваших сотрудников.</p>
+                    <ul class="service-features">
+                        <li>Удаленная поддержка</li>
+                        <li>Обучение персонала</li>
+                        <li>Оперативное реагирование</li>
+                    </ul>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-shield-alt service-icon"></i>
+                    <h3>Информационная безопасность</h3>
+                    <p>Комплексная защита данных и IT-инфраструктуры вашей компании.</p>
+                    <ul class="service-features">
+                        <li>Антивирусная защита</li>
+                        <li>Файерволы и IDS</li>
+                        <li>Аудит безопасности</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages fade-in" id="advantages">
+            <h2 class="section-title">Преимущества работы с нами</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Срочный выезд</h3>
+                    <p>Выезжаем к клиенту в течение часа после обращения</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Гарантия на работы</h3>
+                    <p>Предоставляем гарантию на все виды выполненных работ</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>Удаленная помощь</h3>
+                    <p>Решаем большинство проблем удаленно без выезда, экономя ваше время</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Работаем без выходных</h3>
+                    <p>Принимаем заявки и выполняем работы 7 дней в неделю</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="calculator fade-in" id="calculator">
+            <h2 class="section-title">Рассчитать стоимость</h2>
+            <div class="calculator-container">
+                <form id="price-calculator" class="calculator-form">
+                    <div class="form-group">
+                        <label for="service-type">Выберите услугу:</label>
+                        <select id="service-type" required>
+                            <option value="">Выберите услугу</option>
+                            <option value="pc-repair">Диагностика</option>
+                            <option value="windows-install">Установка Windows</option>
+                            <option value="linux-install">Установка Linux</option>
+                            <option value="drivers-install">Установка драйверов</option>
+                            <option value="software">Установка программ</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="urgency">Срочность:</label>
+                        <select id="urgency" required>
+                            <option value="normal">Обычная</option>
+                            <option value="urgent">Срочно (в течение часа)</option>
+                        </select>
+                    </div>
+                </form>
+                <div id="price-result" class="calculator-result">
+                    <h3>Примерная стоимость:</h3>
+                    <p class="price">от <span id="calculated-price">0</span></p>
+                    <p class="calculator-note">Если не нашли услугу которую искали, то <a href="#contact">свяжитесь</a> с нами!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact fade-in" id="contact">
+            <h2>Нужна консультация?</h2>
+            <p>Готовы обсудить ваши задачи и предложить оптимальное решение</p>
+            <div class="contact-buttons">
+                <a href="tel:+79386535810" class="btn">
+                    <i class="fas fa-phone"></i> Позвонить
+                </a>
+                <a href="https://wa.me/79386535810?text=Здравствуйте!%20Нужна%20консультация%20по%20IT-услугам" class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>© <span class="year"></span> IT Technology</p>
+                    <p>Профессиональные IT-услуги</p>
+                    <p class="copyright-text">Все права защищены. Копирование материалов сайта без согласия правообладателя запрещено.</p>
+                </div>
+                <div class="footer-contact">
+                    <a href="tel:+79386535810">+7 938 653-58-10</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
